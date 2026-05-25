@@ -1,0 +1,6 @@
+df-h
+sudo du -sh /var/log
+
+===
+uname -a
+lsb_release -a
