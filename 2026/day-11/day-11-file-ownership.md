@@ -112,7 +112,7 @@ Using `chown` you can change both owner and group together:
 4. Create 3 files inside:
    ```
    touch bank-heist/access-codes.txt
-   touch bank-heist/blueprints.pdf
+   touch bank-heist/blueprints.txt
    touch bank-heist/escape-plan.txt
    ```
 
@@ -120,7 +120,7 @@ Using `chown` you can change both owner and group together:
 
 5. Set different ownership:
    - `access-codes.txt` → owner: `tokyo`, group: `vault-team`
-   - `blueprints.pdf` → owner: `berlin`, group: `tech-team`
+   - `blueprints.txt` → owner: `berlin`, group: `tech-team`
    - `escape-plan.txt` → owner: `nairobi`, group: `vault-team`
 
 **Verify:** `ls -l bank-heist/`
@@ -142,7 +142,7 @@ Using `chown` you can change both owner and group together:
     - strategy.conf
 - bank-heist/
   - access-codes.txt
-  - blueprints.pdf
+  - blueprints.txt
   - escape-plan.txt
 ```
 
@@ -155,7 +155,7 @@ Using `chown` you can change both owner and group together:
 | app-logs/                  | user:user | berlin:heist-team           |
 | heist-project/ (all files) | user:user | professor:planners          |
 | access-codes.txt           | user:user | tokyo:vault-team            |
-| blueprints.pdf             | user:user | berlin:tech-team            |
+| blueprints.txt             | user:user | berlin:tech-team            |
 | escape-plan.txt            | user:user | nairobi:vault-team          |
 
 
@@ -182,13 +182,13 @@ sudo groupadd planners
 sudo chown -R professor:planners heist-project/
 mkdir bank-heist
 touch bank-heist/access-codes.txt
-touch bank-heist/blueprints.pdf
+touch bank-heist/blueprints.txt
 touch bank-heist/escape-plan.txt
 sudo useradd nairobi
 sudo groupadd vault-team
 sudo groupadd tech-team
 sudo chown tokyo:vault-team bank-heist/access-codes.txt
-sudo chown berlin:tech-team bank-heist/blueprints.pdf
+sudo chown berlin:tech-team bank-heist/blueprints.txt
 sudo chown nairobi:vault-team bank-heist/escape-plan.txt
 ls -lR bank-heist/
 ```
