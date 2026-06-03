@@ -37,7 +37,7 @@
    
    [Script](scripts/greet.sh)
    
-   ![greet](images/greet.sh.png)
+   ![greet](images/greet.png)
 
 2. Create `args_demo.sh` that:
    - Prints total number of arguments (`$#`)
