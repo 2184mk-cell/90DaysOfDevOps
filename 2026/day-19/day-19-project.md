@@ -10,7 +10,7 @@ Create `log_rotate.sh` that:
 
    [Script](scripts/log_rotate.sh)
    
-   ![images](images/log_rt.png)
+   ![images](images/log_rotate.png)
    
 ---
 
