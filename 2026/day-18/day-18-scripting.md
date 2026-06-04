@@ -37,7 +37,7 @@
 
    [Script](scripts/strict_demo.sh)
    
-   ![task3](images/tak3withoutstrictmode.png)
+   ![task3](images/task3withoutstrictmode.png)
    
    ![task3](images/task3withstrictmode.png)
    
