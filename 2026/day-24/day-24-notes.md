@@ -184,13 +184,13 @@
    
 2. Switch to `main`
 
-   - Before cherry-pick: `4b4eac0` Improve login error messages
+   - Before cherry-pick: `3333b22` Improve login error messages
       
       ![image](images/task5.1.2.png)
 
 
 3. Cherry-pick **only the second commit** from `feature-hotfix` onto `main`
-   - After resolving conflict: `bc0d4bd` (HEAD -> main) Improve login error messages
+   - After resolving conflict: `6f5c744` (HEAD -> main) Improve login error messages
    - The commit ID changed because cherry-pick creates a new commit
 
       ![image](images/task5cnflctchry.png)
