@@ -56,7 +56,6 @@ Start it, access WordPress in your browser, and set it up.
 ![image](images/down.png)
 
 
-![image](images/wrdafter.png)
 
 
 
@@ -111,5 +110,6 @@ Practice and document these:
 
     [Compose file](worpress-mysql-env/docker-compose.yml)
 
-    [image](images/.env.png)
+
+   ![image](images/.env.png)
         
