@@ -1,0 +1,16 @@
+# Key-Value Pairs
+name: Mahesh Kumar
+role: Java Full Stack Developer | Aspiring Cloud & DevOps Engineer
+experience_years: 9
+learning: true
+
+# Lists Using - (dash)
+tools:
+  - Docker
+  - Jenkins
+  - K8s
+  - Terraform
+  - Anisble
+
+# Lists Using square brackets [ ] Inline format
+hobbies: ["Trekking", "Playing Cricket"]
