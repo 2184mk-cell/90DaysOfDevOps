@@ -136,7 +136,6 @@ Delete all pods and services you created.
 `Memory limit exceeded`
 - Container is killed (OOMKilled) and restarted
 
-
 **Liveness vs readiness vs startup probes**
 
 | Probe Type          | Purpose                        | When it Runs           | If it Fails                       | Simple Meaning            |
