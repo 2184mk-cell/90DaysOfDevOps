@@ -41,7 +41,9 @@ Run `terraform plan` -- you should see 5 resources to create.
 **Verify:** Apply and check the AWS VPC console. Can you see all five resources connected?
 - Yes,all five resources connected
 
-![image](images/task2_apply.png)
+![image](images/task2.1_apply.png)
+
+![image](images/task2.2_apply.png)
 
 ![image](images/task2_vpc.png)
 
@@ -102,7 +104,9 @@ Add to your config:
 
 Apply and verify -- your EC2 instance should have a public IP and be reachable.
 
+
 ![image](images/task4_apply.png)
+
 
 
 ![image](images/task4_ec2_publicip.png)
