@@ -104,7 +104,9 @@ Apply and verify -- your EC2 instance should have a public IP and be reachable.
 
 ![image](images/task4_apply.png)
 
+
 ![image](images/task4_ec2_publicip.png)
+
 
 ![image](images/task4_ec2_sg.png)
 
